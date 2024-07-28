@@ -15,8 +15,8 @@ import { canAssignRole } from '@plone/volto/helpers';
  * RenderGroups functional component.
  */
 const RenderGroups = (props) => {
-const { group, roles, inheritedRole, onDelete, isUserManager, updateGroups } =
-  props;
+  const { group, roles, inheritedRole, onDelete, isUserManager, updateGroups } =
+    props;
 
   /**
    * @param {*} event
